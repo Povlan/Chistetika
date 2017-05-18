@@ -19,14 +19,14 @@
   <!-- iOS Safari -->
   <meta name="apple-mobile-web-app-status-bar-style" content="#000">
   <style>
-  body {
-    opacity: 0;
-    overflow-x: hidden;
-  }
-  
-  html {
-    background-color: #fff;
-  }
+    body {
+      opacity: 0;
+      overflow-x: hidden;
+    }
+
+    html {
+      background-color: #fff;
+    }
   </style>
 </head>
 
@@ -41,23 +41,29 @@
           </div>
         </div>
         <div class="col-xs-6 col-sm-8 col-md-8 col-lg-8 col-lg-offset-1">
-            
-<!--           <button class="hamburger hamburger--slider hidden-sm hidden-md hidden-lg" type="button">
+          <!--           <button class="hamburger hamburger--slider hidden-sm hidden-md hidden-lg" type="button">
             <span class="hamburger-box">
               <span class="hamburger-inner"></span>
             </span>
           </button> -->
-
           <nav id="main-menu">
             <ul class="main-menu_default">
-              <li>
-                <span class="chist"></span>
+              <span class="chist-box">
+                <span class="chist-inner"></span>
+              </span>
+              <li class='menu-item'>
                 <a rel="m_PageScroll2id" href="#textile">Текстиль</a>
               </li>
-              <li>
+              <span class="chist-box">
+                <span class="chist-inner"></span>
+              </span>
+              <li class='menu-item'>
                 <a rel="m_PageScroll2id" href="#contracts">Контрактные материалы</a>
               </li>
-              <li>
+              <span class="chist-box">
+                <span class="chist-inner"></span>
+              </span>
+              <li class='menu-item'>
                 <a rel="m_PageScroll2id" href="#contacts">Контакты</a>
               </li>
             </ul>
@@ -75,7 +81,6 @@
     </div>
   </header>
   <section class="send-email">
-    
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-10 col-md-offset-1 col-sm-12">
@@ -97,7 +102,6 @@
                   <input type="text" class="form-control" name="phone" placeholder="Введите ваш телефон" required>
                 </div>
                 <button class="col-xs-12 col-md-4 col-sm-4 bg-1 button button--ujarak button--border-thin button--text-thick">Отправить</button>
-                
               </div>
             </div>
           </form>
@@ -109,73 +113,78 @@
   <section id="textile">
     <div class="container">
       <div class="row">
-        <h1 class="col-sm-12">Текстиль</h1>
-        <p class="add-text">Текстиль CHISTETIKA – это «умные» легко чистящиеся мебельные ткани разных типов производства, объединенные общей концепцией Easy Clean.</p>
-        <div class="wrap-textile col-md-12">
-          <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
-            <figcaption class="icons-text">Являемся официальным эксклюзивным представителем ряда знаменитых текстильных концернов</figcaption>
-          </figure>
-          <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
-            <figcaption class="icons-text">Предлагаем широчайшую библиотеку блэкаутов, димаутов и тюлей для возможности работы под заказ</figcaption>
-          </figure>
-          <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
-            <figcaption class="icons-text">Оперируем ценами прямых поставок и выполняем заказы в срок</figcaption>
-          </figure>
-          <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
-            <figcaption class="icons-text">Подходим индивидуально и комплексно к каждому проекту</figcaption>
-          </figure>
-        </div>
+        <h1 class="col-sm-12 s-head">             
+         <span class="chist-box-head">
+         <span class="chist-inner-head"> <span class="chist-inner-head-inside"></span></span>
+        </span>
+         Текстиль
+      </h1>
+      <p class="add-text">Текстиль CHISTETIKA – это «умные» легко чистящиеся мебельные ткани разных типов производства, объединенные общей концепцией Easy Clean.</p>
+      <div class="wrap-textile col-md-12">
+        <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
+          <figcaption class="icons-text">Являемся официальным эксклюзивным представителем ряда знаменитых текстильных концернов</figcaption>
+        </figure>
+        <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
+          <figcaption class="icons-text">Предлагаем широчайшую библиотеку блэкаутов, димаутов и тюлей для возможности работы под заказ</figcaption>
+        </figure>
+        <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
+          <figcaption class="icons-text">Оперируем ценами прямых поставок и выполняем заказы в срок</figcaption>
+        </figure>
+        <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
+          <figcaption class="icons-text">Подходим индивидуально и комплексно к каждому проекту</figcaption>
+        </figure>
       </div>
     </div>
-  </section>
-  <section id="contracts">
-    <div class="container">
-      <div class="row">
-        <h1 class="col-sm-12">Контрактные ткани</h1>
-        <p class="add-text">Ткани для контрактного сектора обладают устойчивостью к возгоранию, прочностью и износоустойчивостью, - всё это обуславливает их использование в качестве портьер и для обивки мебели в ресторанах и кафе, гостиницах и концертных залах, в больницах, детских садах, школах и в транспорте.</p>
-        <div class="wrap-contracts col-md-12">
-          <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
-            <figcaption class="icons-text">Подходим индивидуально и комплексно к каждому проекту</figcaption>
-          </figure>
-          <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
-            <figcaption class="icons-text">Оперируем ценами прямых поставок и выполняем заказы в срок</figcaption>
-          </figure>
-          <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
-            <figcaption class="icons-text">Являемся официальным эксклюзивным представителем ряда знаменитых текстильных концернов</figcaption>
-          </figure>
-          <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
-            <figcaption class="icons-text">Предлагаем широчайшую библиотеку блэкаутов, димаутов и тюлей для возможности работы под заказ.
-            </figcaption>
-          </figure>
-        </div>
+  </div>
+</section>
+<section id="contracts">
+  <div class="container">
+    <div class="row">
+      <h1 class="col-sm-12 s-head">Контрактные ткани</h1>
+      <p class="add-text">Ткани для контрактного сектора обладают устойчивостью к возгоранию, прочностью и износоустойчивостью, - всё это обуславливает их использование в качестве портьер и для обивки мебели в ресторанах и кафе, гостиницах и концертных залах, в больницах, детских садах, школах и в транспорте.</p>
+      <div class="wrap-contracts col-md-12">
+        <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
+          <figcaption class="icons-text">Подходим индивидуально и комплексно к каждому проекту</figcaption>
+        </figure>
+        <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
+          <figcaption class="icons-text">Оперируем ценами прямых поставок и выполняем заказы в срок</figcaption>
+        </figure>
+        <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
+          <figcaption class="icons-text">Являемся официальным эксклюзивным представителем ряда знаменитых текстильных концернов</figcaption>
+        </figure>
+        <figure class="icons col-md-3 col-sm-6"><i class="fa fa-cog" aria-hidden="true"></i>
+          <figcaption class="icons-text">Предлагаем широчайшую библиотеку блэкаутов, димаутов и тюлей для возможности работы под заказ.
+          </figcaption>
+        </figure>
       </div>
     </div>
-  </section>
-  <footer id="contacts">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-          <div class="row">
-            <div class="col-lg-6 col-lg-offset-4 col-sm-6 col-sm-offset-4">
-              <div class="logo-transparent">
-                <a href="#top" rel="m_PageScroll2id"><img src="img/logo/logo-transp.svg" alt="Chistetika"></a>
-              </div>
+  </div>
+</section>
+<footer id="contacts">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-4 col-sm-6 col-sm-offset-4">
+            <div class="logo-transparent">
+              <a href="#top" rel="m_PageScroll2id"><img src="img/logo/logo-transp.svg" alt="Chistetika"></a>
             </div>
           </div>
-          <div id="sofa-transparent">
-            <ul class="bxslider">
-              <li><img src="img/sofa-dots.svg" alt="диван"></li>
-              <li><img src="img/sofa.svg" alt="диван"></li>
-            </ul>
-          </div>
         </div>
-        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-          <h3>Контакты</h3>
-          <address>
-            <p>Московская область
-              <br> Одинцовский район, Малые Вязёмы
-              <br> Петровский проезд,
-              <br> владение 2, строение 2</p>
+        <div id="sofa-transparent">
+          <ul class="bxslider">
+            <li><img src="img/sofa-dots.svg" alt="диван"></li>
+            <li><img src="img/sofa.svg" alt="диван"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+        <h3>Контакты</h3>
+        <address>
+          <p>Московская область
+            <br> Одинцовский район, Малые Вязёмы
+            <br> Петровский проезд,
+            <br> владение 2, строение 2</p>
             <img class="logo-contacts" src="img/logo-contacts.svg" alt="contacts">
             <p class="phones">+7 (495) 637-90-79 доб. 246
               <br> info@chistetika.ru
@@ -188,7 +197,9 @@
         </div>
       </div>
     </div>
-  <div class="copyright"><span>Все права защищены © Союз-М, 2017</span><div class="pattern-footer"></div></div>
+    <div class="copyright"><span>Все права защищены © Союз-М, 2017</span>
+      <div class="pattern-footer"></div>
+    </div>
   </footer>
   <a href="#top" class="scroll-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
   <link rel="stylesheet" href="css/main.min.css">
