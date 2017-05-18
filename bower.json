@@ -1,0 +1,29 @@
+{
+  "name": "chistetika",
+  "description": "souz-m chistetika",
+  "main": "index.js",
+  "authors": [
+    "kaputzin studio"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "Headhesive.js": "headhesive#^1.2.4",
+    "fullpage.js": "^2.9.4",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bxslider": "*",
+    "bxslider-4": "bxSlider#^4.2.12"
+  }
+}

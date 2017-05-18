@@ -1,0 +1,159 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+@import "header"
+
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+section.send-email
+	position: relative
+	min-height: 320px
+	background-color: #E8E8E8
+	
+	h2
+		font-weight: 300
+		text-align: center
+		line-height: em(22)
+		color: $main-color
+		margin-top: 50px
+
+.pattern
+	background: transparent url(../img/diagonal.png) repeat 0 0;
+	min-height: 320px
+	position: absolute
+	width: 100%
+	height: 100%
+	top: 0
+	left: 0
+	opacity: 0.15
+
+.pattern-footer
+	background: transparent url(../img/diagonal.png) repeat 0 0;
+	// min-height: 320px
+	position: absolute
+	width: 100%
+	height: 100%
+	top: 0
+	left: 0
+	opacity: 0.15
+
+#contracts
+	background-color: lighten($main-color, 60% )
+#textile
+	background-color: lighten($main-color, 80% )
+
+#contracts, #textile
+	min-height: 600px
+	// display: flex
+	// min-height: 100vh
+			margin-top: 10px
+	// align-items: center
+	// justify-content: center
+	// height: 100%
+	h1
+		font-weight: 400
+		color: $main-color
+		text-align: center
+		margin: 57px 0 20px 0
+	p
+		font-weight: 200
+		// font-style: italic
+		text-align: center
+		text-transform: none
+		font-family: $default-font-i,cursive
+		line-height: em(22)
+		margin: 0px 100px
+
+/* С флексом */
+// .wrap
+// 	&-textile, &-contracts
+// 		display: flex
+// 		margin: 80px 0 0 0
+// 		padding: 0
+// 		flex-wrap: wrap
+// 		flex-flow: row wrap
+// 		justify-content: space-around
+// 		text-align: center
+// 		// width: 200px
+// 		.icons
+// 	 		.i
+// 	 			display: block
+// 	 			// position: relative
+// 	 			// width: 200px
+// 	 			// height: 200px
+// 				font-size: em(90)
+// 				margin-bottom: 0px
+				
+// 		span.icons-text
+// 			display: inline-block
+// 			font-size: 16px
+// 			width: 100%
+// 			padding-left: 40px
+// 			padding-right: 40px
+// 			margin-top: -20px
+// 		.icons
+// 			// display: flex
+// 			// flex-wrap: nowrap
+// 			width: 200px
+// 			height: 200px
+
+/* Без флекса */
+.wrap
+	&-textile, &-contracts
+		display: block
+		margin: 50px 0 0 0
+		padding: 0
+		text-align: center
+
+		figure.icons
+			i
+				//display: block
+				// position: relative
+				// width: 200px
+				// height: 200px
+				font-size: em(90)
+				margin-bottom: 0px
+				
+		figcaption.icons-text
+			//display: inline-block
+			font-size: 16px
+			// width: 100%
+			padding-left: 40px
+			padding-right: 40px
+			margin-top: 20px
+		.icons
+			
+			// width: 200px
+			// height: 200px
+
+li
+	padding: 0
+	margin: 0
+
+
+@import "input"
+@import "_footer.sass" 
+
+@import "media" // Всегда в конце

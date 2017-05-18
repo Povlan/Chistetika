@@ -1,0 +1,172 @@
+// @import "vars";
+// @import "fonts"
+// @import "libs"
+
+
+footer
+	// min-height: 100vh  // версия по вертикали
+	&#contacts
+		min-height: 630px  //базовая версия
+	h3
+		color: $main-color
+		text-align: center
+		font-weight: 400
+		margin: 80px 0 50px 0
+		
+	p
+		text-align: center
+		font-size: em(18)
+		line-height: em(20)
+		color: #95989A
+
+
+
+.logo-transparent
+	// position: absolute
+	// top: 50px
+	// left: 50px
+	// width: 226px
+	// height: auto
+	// margin: 30px 0 125px 150px
+	// margin-left: 150px
+	// margin-bottom: 125px
+	// margin-top: 30px
+
+#sofa-transparent
+	// vertical-align: bottom
+	// margin-bottom: 30px
+	// position: relative
+	// margin-top: 350px
+	// .bx-wrapper
+	// 	box-shadow: none
+	// // ul.bxslider
+	// // 	li
+	// // 	margin: 0
+	// // 	padding: 0
+
+.logo-transparent
+	position: relative
+	// top: 50px
+	// left: 50px
+	width: 226px
+	// height: auto
+	// margin: 30px 0 125px 150px
+	// margin-left: 150px
+	// margin-bottom: 125px
+	margin-top: 30px
+	margin-bottom: 120px
+
+
+#sofa-transparent
+	// vertical-align: bottom
+	// margin-bottom: 30px
+	// position: relative
+	// margin-top: 350px
+	.bx-wrapper
+		box-shadow: none
+	// ul.bxslider
+	// 	li
+	// 	margin: 0
+	// 	padding: 0
+
+#contacts
+	// display: flex
+	// align-items: center
+ //  justify-content: center
+ //  height: 100%
+	address
+		font-style: normal
+	img.logo-contacts
+		width: 265px
+		height: 50px
+		// margin: 35px auto 10px 95px
+		display: block
+		margin: 0 auto
+		margin-top: 50px
+		margin-bottom: 30px
+	
+	p.phones
+		color: $second-color
+		line-height: em(24)
+
+		// margin-bottom: 0px
+
+
+.holding
+	width: 180px
+	// margin-left: 140px
+	display: block
+	margin: 0 auto
+	margin-top: 80px
+	margin-bottom: 30px
+	p
+		color: $third-color
+		text-align: center
+		font-size: em(14)
+		margin-bottom: 10px
+
+.scrollup
+	// width: 40px
+	// height: 40px
+	// opacity: 0.3
+	// position: fixed
+	// bottom: 50px
+	// right: 100px
+	// display: none
+	// text-indent: -9999px
+	// background: url('icon_top.png') no-repeat
+
+	address
+		font-style: normal
+
+.scroll-to-top
+	&:hover
+		background-color: $main-color
+		color: #fff
+  // background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9I…JNNyAxNWExIDEgMCAxIDAgMiAwVjIuNWExIDEgMCAxIDAtMiAwVjE1eiIvPjwvZz48L3N2Zz4=)
+	position: fixed
+	right: -200px
+	bottom: 50px
+	z-index: 10
+	width: 50px
+	height: 50px
+	border-radius: 20%
+	text-align: center
+	line-height: 50px
+	background: #fff
+	font-size: em(25)
+	// background: #fff url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9I…AyLjQzMiA4LjU1MiAyIDggMnMtMSAuNDMyLTEgLjk2NnYxMi4wNjh6Ii8+PC9nPjwvc3ZnPg==) no-repeat 50% 50%
+	cursor: pointer
+	// -o-transition: all .2s
+	transition: all .5s
+	// -webkit-transform: scale(1)
+	// -o-transform: scale(1)
+	transform: scale(1)
+	// -webkit-backface-visibility: hidden
+	backface-visibility: hidden
+	will-change: transform
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25)
+	opacity: 0.9
+
+	&::before
+  	position: absolute
+  	top: 16px
+  	right: 14px
+  	color: #1ba6d2
+  	font-size: .625rem
+	&.active
+		right: 25px
+
+.copyright
+	background-color: rgba(#E6E6E6, 0.5)
+	position: absolute
+	width: 100%
+	min-height: 26px
+	text-align: center
+	span
+		display: inline-block
+		font-family: $second-font
+		line-height: 12px
+		font-size: em(12)
+		padding: 5px 0
+	
