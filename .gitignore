@@ -5,3 +5,4 @@ readme.md
 _in/
 _out/
 *.cache
+dist/
