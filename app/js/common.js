@@ -54,14 +54,14 @@ $('.bxslider').bxSlider();
 
 
   // $(window).on("load",function(){
-  	$(document).ready(function(){
+  	// $(document).ready(function(){
     $("a[rel='m_PageScroll2id'], .scroll-to-top").mPageScroll2id({
     	scrollSpeed: 900,
     	scrollEasing: "easeInOutQuart",
     	offset:0
 
     });
-  });
+  // });
 
   $("#send-email").submit(function() {
 		$.ajax({
