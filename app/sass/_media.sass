@@ -32,6 +32,12 @@
 	.holding
 		margin-top: 50px
 
+	.main-menu_default > li
+		// margin: 0px 0px 0px 30px
+
+	.chist-inner
+		// left: 10px
+
 
 /* Medium Devices, Desktops */
 /* SM 768-992 */
@@ -68,6 +74,18 @@
 			line-height: em(22)
 			color: $main-color
 			margin-top: 0px
+
+	li.menu-item
+		margin-left: 31px
+		font-size: em(16)
+	.chist-box
+		top: 40%
+
+	.chist-inner
+		left: 12px
+		&::after
+			display: none
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
@@ -125,4 +143,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
 	/**/
-
+footer
+	// min-height: 100vh  // версия по вертикали
+	&#contacts
+		min-height: 0 

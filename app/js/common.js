@@ -58,7 +58,7 @@ $('.bxslider').bxSlider();
     $("a[rel='m_PageScroll2id'], .scroll-to-top").mPageScroll2id({
     	scrollSpeed: 900,
     	scrollEasing: "easeInOutQuart",
-    	offset:150
+    	offset:0
 
     });
   });

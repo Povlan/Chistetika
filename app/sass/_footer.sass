@@ -120,10 +120,6 @@ footer
 		font-style: normal
 
 .scroll-to-top
-	&:hover
-		background-color: $main-color
-		color: #fff
-  // background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9I…JNNyAxNWExIDEgMCAxIDAgMiAwVjIuNWExIDEgMCAxIDAtMiAwVjE1eiIvPjwvZz48L3N2Zz4=)
 	position: fixed
 	right: -200px
 	bottom: 50px
@@ -133,12 +129,12 @@ footer
 	border-radius: 20%
 	text-align: center
 	line-height: 50px
-	background: #fff
+	// background: #fff
 	font-size: em(25)
 	// background: #fff url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9I…AyLjQzMiA4LjU1MiAyIDggMnMtMSAuNDMyLTEgLjk2NnYxMi4wNjh6Ii8+PC9nPjwvc3ZnPg==) no-repeat 50% 50%
 	cursor: pointer
 	// -o-transition: all .2s
-	transition: all .5s
+	transition: all .5s ease-in-out
 	// -webkit-transform: scale(1)
 	// -o-transform: scale(1)
 	transform: scale(1)
@@ -146,8 +142,13 @@ footer
 	backface-visibility: hidden
 	will-change: transform
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25)
-	opacity: 0.9
+	opacity: 1
+	background: #fff url(../img/foot.png) no-repeat 50% 50%/60%
 
+	&:hover
+		background-color: 
+		color: #fff
+		background: $main-color url(../img/foot-white.png) no-repeat 50% 50%/75%
 	&::before
   	position: absolute
   	top: 16px
